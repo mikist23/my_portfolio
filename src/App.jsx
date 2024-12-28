@@ -1,6 +1,9 @@
+import Hero from "./pages/Hero.jsx";
 
 export default function App() {
   return (
-    <div>App</div>
+    <>
+    <Hero/>
+    </>
   )
 }
