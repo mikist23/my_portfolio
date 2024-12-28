@@ -31,12 +31,50 @@ export default function Hero() {
              alt="Mike"
              className='W-[250PX] relative z-10' />
         </motion.div>
+
+        <motion.div
+          
+          initial={{ opacity: 0, y: 20}}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className='max-w-2xl'
+        >
+         <h1 className='text-6xl md:text-7xl font-bold tracking-tighter mb-4'>
+            Hi, I am <br /> Mike <span className='text-emerald-400'>Absai</span>
+         </h1>
+         <p className='text-xl text-white/80 max-w-lg mx-auto leading-relaxed mb-6'>
+         I am a Back-End developer, eager to create impactful applications.</p>
+         <div className='flex gap-4 justify-center'>
+            <motion.button 
+            whileHover={{scale: 1.05}}
+            className='px-6 bg-emerald-600 rounded-full font-medium hover:bg-emerald-600 transition-colors'>
+                Contact Me
+            </motion.button>
+
+            <motion.button 
+            whileHover={{scale: 1.05}}
+            className='px-6 py-3 border-white/20 rounded-full font-medium hover:bg-white/10 transition-colors'>
+                View Work
+            </motion.button>
+
+         </div>
+        </motion.div>
         </div>
 
-        <h1 className="text-4xl font-bold text-center mt-8">Welcome to My Portfolio</h1>
-        <p className="text-center mt-4 text-lg">
-          I am a passionate developer, eager to create impactful applications.
-        </p>
+        <motion.div
+         animate={{
+            y: [0, 15, 0],
+         }}
+         transition={{
+            duration:3,
+            repeat: Infinity,
+            ease: 'easeInOut',
+         }} 
+         className='absolute bottom-16 right-1/3 w-96 bg-emerald-500/10 rounded-full blur-xl'
+         
+         />  
+         
+
       </div>
     </div>
   );
