@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { SiFramer, SiDjango, SiDocker, SiPython, SiMysql, SiTensorflow } from 'react-icons/si';
+import {  SiDjango, SiDocker, SiPython, SiMysql, SiTensorflow } from 'react-icons/si';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
