@@ -36,9 +36,9 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-2xl"
           >
-            <h1 className="text-6xl md:text-7xl font-extrabold tracking-tight mb-4">
-              Hi, I am <br /> <span className="text-emerald-400">Mike Absai</span>
-            </h1>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-4">
+             Hi, I am <br /> <span className="text-emerald-400">Mike Absai</span>
+              </h1>
             <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-6">
               A Visionary Back-End developer eager to create impactful applications that inspire and innovate.
             </p>
