@@ -2,7 +2,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillFacebook,
-  AiFillInstagram,
+  AiFillLinkedin
 } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 
@@ -40,18 +40,18 @@ export default function Footer() {
         {/* Social Links */}
         <div className="mt-12 flex justify-center gap-8">
           <a
-            href="https://github.com"
+            href="https://github.com/mikist23"
             aria-label="GitHub"
             className="text-gray-400 hover:text-white transition duration-300"
           >
             <AiFillGithub size={40} />
           </a>
           <a
-            href="https://instagram.com"
-            aria-label="Instagram"
+            href="https://www.linkedin.com/in/mike-absai-a91a53284/"
+            aria-label="Linkedin"
             className="text-gray-400 hover:text-white transition duration-300"
           >
-            <AiFillInstagram size={40} />
+            <AiFillLinkedin size={40} />
           </a>
           <a
             href="https://facebook.com"

@@ -1,4 +1,4 @@
-import { div, li } from "framer-motion/client";
+
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 

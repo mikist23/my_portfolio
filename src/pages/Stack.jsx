@@ -1,37 +1,37 @@
 import { useEffect } from 'react';
-import { SiFramer } from 'react-icons/si';
+import { SiFramer, SiDjango, SiDocker, SiPython, SiMysql, SiTensorflow } from 'react-icons/si';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const stackItems = [
   {
     id: 1,
-    name: 'Framer',
-    icon: <SiFramer size={100} />,
+    name: 'Django',
+    icon: <SiDjango size={100} />,
     color: 'text-emerald-200',
   },
   {
     id: 2,
-    name: 'Figma',
-    icon: <SiFramer size={100} />,
+    name: 'Docker',
+    icon: <SiDocker size={100} />,
     color: 'text-emerald-200',
   },
   {
     id: 3,
-    name: 'React',
-    icon: <SiFramer size={100} />,
+    name: 'Python',
+    icon: <SiPython size={100} />,
     color: 'text-emerald-200',
   },
   {
     id: 4,
-    name: 'Node.js',
-    icon: <SiFramer size={100} />,
+    name: 'SQL',
+    icon: <SiMysql size={100} />,
     color: 'text-emerald-200',
   },
   {
     id: 5,
-    name: 'Lemonade',
-    icon: <SiFramer size={100} />,
+    name: 'Tensorflow',
+    icon: <SiTensorflow size={100} />,
     color: 'text-emerald-200',
   },
 ];

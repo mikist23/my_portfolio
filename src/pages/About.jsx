@@ -14,17 +14,17 @@ export default function About() {
         <div className="border border-white/20 rounded-lg p-6">
           <h3 className="text-2xl font-bold mb-2">01. Background</h3>
           <p className="text-white/50 mb-6">
-            I am a passionate full-stack developer with a strong foundation in computer science and a love for creating innovative web solutions. My journey in tech started with a curiosity about how things work, which led me to pursue a career in web development.
+            I am a passionate backend developer specializing in the Django framework. My journey in tech began with an interest in solving real-world problems through efficient server-side solutions. Over time, I have honed my skills to design scalable and secure systems for web applications.
           </p>
           <div className="rounded-lg p-4 mb-4 border border-white/20">
             <code className="text-emerald-200/50">
               const skills = [
               <br />
-              &nbsp;&nbsp;'JavaScript',<br />
               &nbsp;&nbsp;'Python',<br />
               &nbsp;&nbsp;'Django',<br />
+              &nbsp;&nbsp;'REST APIs',<br />
+              &nbsp;&nbsp;'SQL/NoSQL',<br />
               &nbsp;&nbsp;'Docker',<br />
-              &nbsp;&nbsp;'SQL/No-SQL',<br />
               &nbsp;&nbsp;'AWS'
               <br />
               ];
@@ -36,7 +36,7 @@ export default function About() {
         <div className="border border-white/20 rounded-lg p-6">
           <h3 className="text-2xl font-bold mb-2">02. Expertise</h3>
           <p className="text-white/50">
-            I specialize in building robust and scalable web applications using modern technologies. My expertise spans both front-end and back-end development, allowing me to create seamless, end-to-end solutions.
+            My expertise lies in backend development with Django, creating RESTful APIs, and integrating databases like PostgreSQL. I specialize in building reliable, secure, and high-performing web applications while adhering to best practices in software development.
           </p>
           <div className="mt-4 relative border border-white/20 rounded-lg p-4 h-[220px] overflow-hidden">
             <img
@@ -51,25 +51,25 @@ export default function About() {
         <div className="border border-white/20 rounded-lg p-6">
           <h3 className="text-2xl font-bold mb-2">03. Skills</h3>
           <p className="text-white/50 mb-4">
-            I'm proficient in a wide range of technologies and constantly expanding my skill set to stay at the forefront of web development.
+            I have a strong foundation in backend technologies and frameworks. Below are some of the key skills I bring to the table:
           </p>
           <div className="grid grid-cols-1 text-center gap-4">
             <div className="border border-white/20 rounded-lg p-3">
-              <h4 className="text-emerald-300 font-medium mb-2">Frontend</h4>
+              <h4 className="text-emerald-300 font-medium mb-2">Core Backend</h4>
               <ul className="text-white/50 space-y-1 text-sm">
-                <li>React/Next.js</li>
-                <li>TypeScript</li>
-                <li>Tailwind CSS</li>
-                <li>Framer Motion</li>
+                <li>Django/DRF</li>
+                <li>Python</li>
+                <li>NoSQL/SQL</li>
+                <li>REST APIs</li>
               </ul>
             </div>
             <div className="border border-white/20 rounded-lg p-3">
-              <h4 className="text-emerald-300 font-medium mb-2">Backend</h4>
+              <h4 className="text-emerald-300 font-medium mb-2">DevOps</h4>
               <ul className="text-white/50 space-y-1 text-sm">
-                <li>Node.js</li>
-                <li>Python</li>
-                <li>PostgreSQL</li>
+                <li>Docker</li>
+                <li>NGINX</li>
                 <li>AWS</li>
+                <li>Git</li>
               </ul>
             </div>
           </div>
@@ -81,27 +81,27 @@ export default function About() {
         <div className="border border-white/20 rounded-lg p-6">
           <div className="space-y-4">
             <div>
-              <label className="block text-sm font-medium mb-1">Front-end</label>
+              <label className="block text-sm font-medium mb-1">Backend Development</label>
               <div className="w-full bg-white/10 rounded-full h-2">
-                <div className="bg-emerald-300 h-2 rounded-full"></div>
+                <div className="bg-emerald-300 h-2 rounded-full" style={{ width: '95%' }}></div>
               </div>
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">Back-end</label>
+              <label className="block text-sm font-medium mb-1">REST APIs</label>
               <div className="w-full bg-white/10 rounded-full h-2">
-                <div className="bg-emerald-300 h-2 rounded-full"></div>
+                <div className="bg-emerald-300 h-2 rounded-full" style={{ width: '85%' }}></div>
               </div>
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">DevOps</label>
+              <label className="block text-sm font-medium mb-1">Database Design</label>
               <div className="w-full bg-white/10 rounded-full h-2">
-                <div className="bg-emerald-300 h-2 rounded-full" style={{width: '75%'}}></div>
+                <div className="bg-emerald-300 h-2 rounded-full" style={{ width: '80%' }}></div>
               </div>
             </div>
           </div>
           <h3 className="text-2xl font-bold mt-4 mb-2">04. Approach</h3>
           <p className="text-white/50">
-            I believe in writing clean, maintainable code and following best practices. My approach involves understanding client needs, planning thoroughly, and delivering high-quality solutions on time.
+            My approach to backend development revolves around creating clean, maintainable code and ensuring scalability. I emphasize understanding project requirements thoroughly to deliver efficient solutions.
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export default function About() {
           <div>
             <h3 className="text-2xl font-bold mb-2">05. Goals</h3>
             <p className="text-white/50">
-              My goal is to continue growing as a developer, tackling challenging projects, and contributing to the tech community. I'm always excited to learn new technologies and push the boundaries of what's possible.
+              My goal is to excel as a backend developer, tackle challenging projects, and contribute to impactful solutions. I strive to stay updated with the latest backend technologies and best practices.
             </p>
           </div>
         </div>
