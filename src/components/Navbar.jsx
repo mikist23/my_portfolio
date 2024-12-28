@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
@@ -24,8 +23,9 @@ export default function Navbar() {
     <div className="z-50 fixed flex justify-center w-full text-white font-bold">
       {/* Desktop Navigation */}
       <div
-        className="border border-white/20 mt-8 backdrop-blur-3xl rounded-3xl
-        hidden md:flex items-center justify-center p-2 max-w-[400px] mx-auto"
+        className="border mt-8 backdrop-blur-3xl rounded-3xl
+        hidden md:flex items-center justify-center p-2 max-w-[400px] mx-auto
+        animate-[glow_3s_infinite] border-white/20"
       >
         <ul className="flex flex-row p-2 space-x-8">
           {navLinks.map((link, index) => (

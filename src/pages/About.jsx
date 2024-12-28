@@ -67,7 +67,7 @@ export default function About() {
               <h4 className="text-emerald-300 font-medium mb-2">DevOps</h4>
               <ul className="text-white/50 space-y-1 text-sm">
                 <li>Docker</li>
-                <li>NGINX</li>
+                <li>GitHub</li>
                 <li>AWS</li>
                 <li>Git</li>
               </ul>

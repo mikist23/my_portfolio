@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import profilepic from '../assets/images/profilepic.png';
 
@@ -26,7 +25,7 @@ export default function Hero() {
             <img
               src={profilepic}
               alt="Mike"
-              className="w-[250px] h-[250px] rounded-full relative z-10 border-4 border-emerald-500 shadow-lg"
+              className="w-[250px] h-[250px] rounded-full relative z-10 border-4 border-emerald-500 shadow-lg animate-glow"
             />
           </motion.div>
 
@@ -41,14 +40,14 @@ export default function Hero() {
               Hi, I am <br /> <span className="text-emerald-400">Mike Absai</span>
             </h1>
             <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-6">
-              A Visionary  Back-End developer eager to create impactful applications that inspire and innovate.
+              A Visionary Back-End developer eager to create impactful applications that inspire and innovate.
             </p>
             <div className="flex gap-6 justify-center">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 className="px-8 py-3 bg-emerald-600 rounded-full font-medium shadow-lg hover:bg-emerald-700 transition-transform"
               >
-                Contact Me
+                Get in Touch
               </motion.button>
 
               <motion.button
